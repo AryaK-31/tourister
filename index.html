@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <img src="./img/logo.png" alt="trillo logo" class="logo">
+
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="search destinations">
+
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="./img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="./img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="./img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="./img/user.jpg" alt="" class="user-nav__user-photo">
+                    <span class="user-nav__username">Arya</span>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item-active">
+                        <a href="" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>Hotels</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#flights" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-aircraft-take-off"></use>
+                            </svg>
+                            <span>Flights</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span>Pricing</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span>Gallery</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="legal">
+                    &copy; 2022 by Touristers. All rights reserved.
+                </div>
+            </nav>
+
+            <main class="tour-view">
+                <div class="tour-one tour">
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Magics of Dubai
+                        </h1>
+
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="./img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="./img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="./img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="./img/sprite.svg#icon-star"></use>
+                            </svg>
+                        </div>
+
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use xlink:href="./img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            <button class="btn-inline">Dubai, UAE</button>
+                        </div>
+
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">8.6</div>
+                            <div class="overview__rating-count">426 votes</div>
+                        </div>
+                    </div>
+
+
+                    <div class="details">
+                        <div class="description">
+                            <p class="paragraph">
+                                Embark on an exhilarating trip to Dubai, a city where luxury meets tradition. Marvel at
+                                the Burj Khalifa, explore the vibrant souks, and indulge in shopping at world-class
+                                malls. Experience the thrill of a desert safari, ride the dunes, and enjoy a traditional
+                                Bedouin dinner under the stars. With stunning attractions, diverse cuisine, and
+                                unforgettable adventures, Dubai offers an enchanting escape for every traveler.
+
+
+                            </p>
+
+                            <p class="paragraph">
+                                "Dubai Awaits: A Journey of Luxury and Adventure!"
+                            </p>
+                            <ul class="list">
+                                <li class="list__item">Round-trip airfare</li>
+                                <li class="list__item">5-star hotel accommodation</li>
+                                <li class="list__item">Daily breakfast included</li>
+                                <li class="list__item">City tours and excursions</li>
+                                <li class="list__item">Desert safari experience</li>
+                                <li class="list__item">Access to exclusive events</li>
+                                <li class="list__item">Airport transfers</li>
+                                <li class="list__item">24/7 customer support</li>
+                            </ul>
+                            <div class="recommend">
+                                <p class="recommend__count">
+                                    Arya and 3 other friends recommend this tour package.
+                                </p>
+                                <div class="recommend__friends">
+                                    <img src="./img/user-3.jpg" alt="" class="recommend__photo">
+                                    <img src="./img/user-4.jpg" alt="" class="recommend__photo">
+                                    <img src="./img/user-5.jpg" alt="" class="recommend__photo">
+                                    <img src="./img/user-6.jpg" alt="" class="recommend__photo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-reviews">
+
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto
+                                    dicta animi, totam, itaque officia ex.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="./img/user-1.jpg" alt="" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">
+                                            Nick Smith
+                                        </p>
+                                        <p class="review__user-date">
+                                            Feb 23rd, 2017
+                                        </p>
+                                    </div>
+                                    <div class="review__rating">7.8</div>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto
+                                    dicta animi, totam, itaque officia ex.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="./img/user-2.jpg" alt="" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">
+                                            Mary Thomas
+                                        </p>
+                                        <p class="review__user-date">
+                                            Sept 13th, 2016
+                                        </p>
+                                    </div>
+                                    <div class="review__rating">9.3</div>
+                                </figcaption>
+                            </figure>
+                            <button class="btn-inline">Show More <span>&rarr;</span></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="hotels" class="tour-two hotels">
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Hotels
+                        </h1>
+                    </div>
+                    <div class="details">
+
+                    </div>
+                </div>
+
+                <div id="flights" class="tour-two flights">
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Flights
+                        </h1>
+                    </div>
+                    <div class="details">
+
+                    </div>
+                </div>
+
+                <div id="pricing" class="tour-two pricing">
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Pricing
+                        </h1>
+                    </div>
+                    <div class="details">
+
+                    </div>
+                </div>
+
+                <div id="gallery" class="tour-two gallery">
+                    <figure class="gallery__item gallery__item--1">
+                        <img src="./img/hotel-1.jpg" alt="" class="gallery__img">
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--2">
+                        <img src="./img/hotel-2.jpg" alt="" class="gallery__img">
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--3">
+                        <img src="./img/hotel-3.jpg" alt="" class="gallery__img">
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--4">
+                        <img src="./img/hotel-1.jpg" alt="" class="gallery__img">
+                    </figure>
+                    <figure class="gallery__item gallery__item--5">
+                        <img src="./img/hotel-1.jpg" alt="" class="gallery__img">
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--6">
+                        <img src="./img/hotel-2.jpg" alt="" class="gallery__img">
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--7">
+                        <img src="./img/hotel-3.jpg" alt="" class="gallery__img">
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--8">
+                        <img src="./img/hotel-1.jpg" alt="" class="gallery__img">
+                    </figure>
+                    <figure class="gallery__item gallery__item--9">
+                        <img src="./img/hotel-1.jpg" alt="" class="gallery__img">
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--10">
+                        <img src="./img/hotel-2.jpg" alt="" class="gallery__img">
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--11">
+                        <img src="./img/hotel-3.jpg" alt="" class="gallery__img">
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--12">
+                        <img src="./img/hotel-1.jpg" alt="" class="gallery__img">
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--13">
+                        <img src="./img/hotel-1.jpg" alt="" class="gallery__img">
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--14">
+                        <img src="./img/hotel-1.jpg" alt="" class="gallery__img">
+                    </figure>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
